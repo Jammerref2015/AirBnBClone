@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 
 import HomeScreen from './src/screens/Home';
+import SearchResultsScreen from './src/screens/SearchResults';
 import Post from './src/components/Post';
 
 import feed from './assets/data/feed';
@@ -30,7 +31,7 @@ const App: () => React$Node = () => {
       <SafeAreaView>
         {/* <HomeScreen /> */}
        {/* <Post post={post1} /> */}
-       <Post post={post2} />
+       <SearchResultsScreen />
       </SafeAreaView>
     </>
   );
